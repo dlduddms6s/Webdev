@@ -19,6 +19,8 @@ public class HelloWord extends HttpServlet {
 			throws ServletException, IOException {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		System.out.println("Hello world!");
+		System.out.println("Hello world!");
+
 		
 	}
 
